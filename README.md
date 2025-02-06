@@ -11,16 +11,16 @@ Follow these steps to set up and use a virtual environment:
 
 ### 1. Create/Start the Virtual Environment
 
-1. Open a terminal in your project directory and run (if not created already):
+1. Open a terminal in your project directory and create a virtual env (if not created already):
    ```cmd
    python -m venv venv
 2. Then activate venv:
    ```cmd
-   .\venv1\Scripts\activate
+   .\venv\Scripts\activate
 3. Install dependencies (if not installed already):
    ```cmd
    pip install -r requirements.txt
-5. Deactivate vevn:
+5. Deactivate vevn before closing:
    ```cmd
    deactivate
 ### 2. Run jupyter
